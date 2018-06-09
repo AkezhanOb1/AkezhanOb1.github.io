@@ -1,0 +1,64 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#header {
+  background: rgb(47, 13, 127);
+}
+.header-text {
+  text-align: center;
+  color: White;
+  padding: 10px 0;
+}
+
+.gemeLine {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+
+.gemeLine span {
+    padding: 7px 5px;
+}
+
+#resultText {
+  display: inline-block;
+  width: 25%;
+}
+
+.chosed {
+  background: rgb(47, 13, 127);
+  color: Black;
+}
+
+.mainPart {
+  background: rgb(44, 44, 46);
+  width: 100%;
+  padding: 15% 0 30% 0;
+}
+
+.boxes { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background: rgb(255,255,255);
+  border-radius: 15px;
+  margin: 20px 20px;
+  transition: background-color 0.7s;
+}
+
+#blackBg {
+  background: rgb(44, 44, 46);
+}
+
+span:hover {
+  background-color: rgb(44, 44, 46);
+  color: white;
+  transition: all 0.6s;
+}
